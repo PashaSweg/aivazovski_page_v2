@@ -1,0 +1,53 @@
+.about {
+    background-color: var(--bg-main-grey);
+    padding: 60px 30px 100px;
+    text-align: center;
+    color: var(--color-main-black);
+}
+
+.about-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 42px 0;
+
+}
+
+.about-subtitle-ru {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 auto 15px;
+    max-width: 780px;
+}
+
+.about-desc-ru {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 auto 15px;
+    text-align: justify;
+    max-width: 780px;
+}
+
+.about-subtitle-en {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px auto 15px;
+    max-width: 780px;
+}
+
+.about-desc-en {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 780px;
+}
+
+@media (max-width:480px) {
+
+    .about-subtitle-ru,
+    .about-desc-ru,
+    .about-subtitle-en,
+    .about-desc-en {
+        font-size: 14px;
+    }
+}
