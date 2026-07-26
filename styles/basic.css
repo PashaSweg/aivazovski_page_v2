@@ -7,3 +7,20 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: var(--bg-main);
 }
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 970px;
+    padding: 0 10px;
+}
