@@ -1,0 +1,72 @@
+.contacts {
+    padding: 55px 20px 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contacts-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--color-main-black);
+    margin: 0 0 75px 0;
+}
+
+.contacts-btn {
+    width: 210px;
+    height: 42px;
+    background-color: var(--color-main-black);
+    border: none;
+    border-radius: 21px;
+
+    margin: 0 auto 40px;
+}
+
+.contacts-btn:hover {
+    opacity: .8;
+}
+
+.button-link {
+    color: var(--bg-main);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.cosial {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 0 40px 0;
+}
+
+.cosial-icon {
+    max-width: 65px;
+    max-height: 65px;
+}
+
+.cosial-icon:hover{
+    fill: var(--font-color-grey);
+}
+
+
+.contacts-desc {
+    width: 260px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--font-color-grey);
+}
+
+@media (max-width:480px) {
+    .cosial {
+        gap: 25px;
+    }
+
+    .cosial-icon {
+        max-width: 55px;
+        max-height: 55px;
+    }
+
+    .contacts-desc {
+        font-size: 14px;
+    }
+}
