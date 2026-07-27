@@ -1,11 +1,15 @@
 @font-face {
     font-family: roboto-medium;
-    src: url('../fonts/Roboto_Condensed-Medium.woff2');
+    src: url('../fonts/Roboto_Condensed-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
 }
 
 @font-face {
     font-family: roboto-bold;
-    src: url('../fonts/Roboto_Condensed-Bold.woff2');
+    src: url('../fonts/Roboto_Condensed-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
 }
 
 * {
