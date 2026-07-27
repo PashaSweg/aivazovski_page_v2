@@ -1,3 +1,13 @@
+@font-face {
+    font-family: roboto-medium;
+    src: url('/fonts/Roboto_Condensed-Medium.woff2');
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url('/fonts/Roboto_Condensed-Bold.woff2');
+}
+
 * {
     box-sizing: border-box;
 }
@@ -8,7 +18,7 @@ html {
 
 body {
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: roboto-medium;
     background-color: var(--bg-main);
 }
 
