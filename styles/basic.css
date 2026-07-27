@@ -23,6 +23,7 @@ html {
 body {
     margin: 0;
     font-family: roboto-medium;
+    letter-spacing: 0.5px;
     background-color: var(--bg-main);
 }
 
