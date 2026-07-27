@@ -1,5 +1,5 @@
 # Aivazovski page
 
-
-Верстка макета на html и css c урока на ютубе + некоторые секции верстал сам. Сам пофиксил баг с неработающими ссылками в мобильной навигации с помощью js, оптимизировал performance. Изучил Accessibility
-
+```
+Russian marine painter of Armenian origin, collector, philanthropist
+```
