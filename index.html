@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75..100,100..900&display=swap"
+        as="style" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75..100,100..900&display=swap"
         rel="stylesheet">
     <link rel="icon" href="./assets/favicon.png" type="image/png">
@@ -18,26 +20,61 @@
         <div class="container">
             <div class="nav" aria-label="header navigation">
                 <ul class="nav-list">
-                    <li aria-label="header nav list">
-                        <a href="#homeId" class="nav-link" aria-label="link to home">Home</a>
+                    <li>
+                        <a href="#homeId" class="nav-link">Home</a>
                     </li>
-                    <li aria-label="header nav list">
-                        <a href="#aboutId" class="nav-link" aria-label="link to about">About</a>
+                    <li>
+                        <a href="#aboutId" class="nav-link">About</a>
                     </li>
-                    <li aria-label="header nav list">
-                        <a href="#historyId" class="nav-link" aria-label="link to history">History</a>
+                    <li>
+                        <a href="#historyId" class="nav-link">History</a>
                     </li>
-                    <li aria-label="header nav list">
-                        <a href="#portfolioId" class="nav-link" aria-label="link to portfolio">Portfolio</a>
+                    <li>
+                        <a href="#portfolioId" class="nav-link">Portfolio</a>
                     </li>
-                    <li aria-label="header nav list">
-                        <a href="#contactsID" class="nav-link" aria-label="link to contacts">Contacts</a>
+                    <li>
+                        <a href="#contactsID" class="nav-link">Contacts</a>
                     </li>
-
                 </ul>
             </div>
         </div>
     </header>
+
+    <div class="mobile-navigation" aria-label="mobile navigation">
+        <label for="toggler-id" aria-label="open close mobile navigation">
+            <svg class="mobile-navigation-burger" aria-label="burger icon">
+                <use href="assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" id="toggler-id" class="mobile-navigation-toggler">
+
+        <div class="mobile-navigation-menu" aria-label="mobile-navigation">
+            <ul class="mobile-navigation-list">
+                <li id="home-id">
+                    <a href="#homeId" class="mobile-navigation-link">Home</a>
+                </li>
+                <li id="about-id">
+                    <a href="#aboutId" class="mobile-navigation-link">About</a>
+                </li>
+                <li id="history-id">
+                    <a href="#historyId" class="mobile-navigation-link">History</a>
+                </li>
+                <li id="portfolio-id">
+                    <a href="#portfolioId" class="mobile-navigation-link">Portfolio</a>
+                </li>
+                <li id="contacts-id">
+                    <a href="#contactsID" class="mobile-navigation-link">Contacts</a>
+                </li>
+            </ul>
+
+            <label for="toggler-id" class="mobile-navigation-close" aria-label="open close mobile navigation">
+                <svg class="mobile-navigation-cross" aria-label="cross icon">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+        </div>
+    </div>
 
     <main aria-label="main">
         <section class="home" aria-label="home section" id="homeId">
@@ -45,7 +82,8 @@
                 <h1 class="home-title" aria-label="title">Ivan Constantinovich Aivazovski</h1>
                 <p class="home-description" aria-label="description">Russian marine painter of Armenian origin,
                     collector, philanthropist</p>
-                <img src="./assets/webp/portrait 1.webp" alt="photo of Aivazovski" class="home-img">
+                <img width="950px" height="535px" loading="eager" src="./assets/webp/portrait 1.webp"
+                    alt="photo of Aivazovski" class="home-img">
             </div>
         </section>
 
@@ -137,6 +175,8 @@
         <p class="contacts-desc" aria-label="description contacts">More works you can see in these social networks</p>
 
     </footer>
+
+    <script src="main.js" defer></script>
 </body>
 
 </html>
